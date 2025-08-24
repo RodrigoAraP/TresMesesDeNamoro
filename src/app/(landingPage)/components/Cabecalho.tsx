@@ -1,4 +1,4 @@
-import { IconHeart, IconLock } from "@tabler/icons-react";
+import { IconHeart } from "@tabler/icons-react";
 import Status from "./Status";
 
 export default function Cabecalho() {
