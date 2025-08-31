@@ -4,7 +4,7 @@ import Rodape from "./components/Rodape";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-between py-32 items-center h-screen w-[1920px]">
+    <div className="flex flex-col justify-between py-32 items-center h-screen w-max-[1440px]">
       <Cabecalho/>
       <Principal/>
       <Rodape/>

@@ -25,11 +25,11 @@ export default function Relogio() {
   }, []);
 
   return (
-    <h1 className="flex items-center justify-center
-    text-[200px] font-bold 
-    text-[#272727]/75 mix-blend-color-burn
-    ">
-      {tempo.dias > 0 && <span className="px-16">{tempo.dias} |</span>}
+    <h1 className={`flex items-center justify-center
+     text-4xl sm:text-6xl md:text-7xl lg:text-9xl xl:text-[1000%] font-bold
+     text-[#272727]/75 mix-blend-color-burn`}
+    >
+      {tempo.dias > 0 && <span className="">{tempo.dias} |</span>}
       {tempo.horas} : {tempo.minutos} : {tempo.segundos}
     </h1>
   )
