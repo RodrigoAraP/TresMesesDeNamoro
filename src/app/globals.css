@@ -4,3 +4,12 @@ body {
   background: #0a0a0a;
   color: #ededed;
 }
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;     /* Firefox */
+}
