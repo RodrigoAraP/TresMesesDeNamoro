@@ -1,15 +1,21 @@
 @import "tailwindcss";
 
 body {
-  background: #0a0a0a;
-  color: #ededed;
+  background: #ededed;
+  color: #0a0a0a;
 }
 
 .scroll-hidden::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
+  display: none; 
 }
 
 .scroll-hidden {
-  -ms-overflow-style: none;  /* IE e Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;   
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

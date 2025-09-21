@@ -5,7 +5,7 @@ import {TimerProvider} from "./context/TimerContext";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-between py-32 items-center h-screen w-max-[1440px]">
+    <div className="flex flex-col justify-between py-20 sm:py-32 items-center h-screen w-max-[1440px]">
       <TimerProvider >
         <Cabecalho />
         <Principal />

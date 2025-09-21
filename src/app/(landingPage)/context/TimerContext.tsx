@@ -14,7 +14,7 @@ interface TimerContextType {
 const TimerContext = createContext({} as TimerContextType)
 
 function Timer() {
-  const dataFinal = new Date("2025-09-24T12:00:00");
+  const dataFinal = new Date("2025-09-24T18:00:00");
   const dataAtual = new Date();
   const delta = dataFinal.getTime() - dataAtual.getTime();
 
